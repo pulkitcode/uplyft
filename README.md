@@ -9,7 +9,7 @@
 - Built to help users fight depression, anxiety, and other mental illnesses.
 - Offers a textual medium of communication, reducing the barriers of entry.
 - Complete anonymity, no fields are required to be entered by the user.
-- Relays information to certified authorities with users consent
+- Relays information to certified authorities with users consent.
 
 <p align = "center">
 <img width ="300" src = "_shared/uplyft.gif"/>
@@ -33,8 +33,8 @@ In case there's any confusion Firebase refers to Google's realtime database serv
 You can find the Firestore project here
 
 # Relevant Docs
-- [Flutter Widget Catalogue](https://flutter.dev/docs/development/ui/widgets) for when you need to look up widgets to use
-- [Flutter Cookbook](https://flutter.dev/docs/cookbook) for quickly researching flutter concepts 
-- [Flutter Firestore Docs](https://firebase.google.com/docs/firestore) for understanding Firestore and how to use it
+- [Flutter Widget Catalogue](https://flutter.dev/docs/development/ui/widgets) for when you need to look up widgets to use.
+- [Flutter Cookbook](https://flutter.dev/docs/cookbook) for quickly researching flutter concepts.
+- [Flutter Firestore Docs](https://firebase.google.com/docs/firestore) for understanding Firestore and how to use it.
 
 
