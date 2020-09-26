@@ -1,0 +1,27 @@
+# Development Team
+
+- Sanjog Gururaj (sgururaj@student.unimelb.edu.au)
+- Prathyush Prashanth Rao (prathyushr@stuent.unimelb.edu.au)
+- Pulkit Aggarwal (pulkit@student.unimelb.edu.au)
+
+# Firestore
+Firestore will be used to store the data for our project.
+In case there's any confusion Firebase refers to Google's realtime database service as a whole. Firestore is the new and improved version (aka Firebase 2.0).
+You can find the Firestore project [here](https://console.firebase.google.com/u/0/project/project-iris-54ea9/database/)
+
+# Tools Used
+- Flutter (Cross-platform mobile framework for building the front end)
+- Firestore (To store and retrieve data)
+- Google App Engine (To run our api and cloud functions for app functionality)
+
+# Firestore
+Firestore will be used to store the data for our project. 
+In case there's any confusion Firebase refers to Google's realtime database service as a whole. Firestore is the new and improved version (aka Firebase 2.0).
+You can find the Firestore project here
+
+# Relevant Docs
+- [Flutter Widget Catalogue](https://flutter.dev/docs/development/ui/widgets) for when you need to look up widgets to use
+- [Flutter Cookbook](https://flutter.dev/docs/cookbook) for quickly researching flutter concepts 
+- [Flutter Firestore Docs](https://firebase.google.com/docs/firestore) for understanding Firestore and how to use it
+
+
