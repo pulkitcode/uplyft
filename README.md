@@ -1,8 +1,24 @@
-# Development Team
+# UpLyft
 
+<p align = "center">
+<img width ="300" src = "/Users/sanjogururaj47/Downloads/uplyft.jpeg"/>
+</p>
+
+
+
+# UpLyft | Feel better
+- Built to help users fight depression, anxiety, and other mental illnesses.
+- Offers a textual medium of communication, reducing the barriers of entry.
+- Complete anonymity, no fields are required to be entered by the user.
+- Relays information to certified authorities with users consent
+
+
+
+# Development Team
 - Sanjog Gururaj (sgururaj@student.unimelb.edu.au)
 - Prathyush Prashanth Rao (prathyushr@stuent.unimelb.edu.au)
 - Pulkit Aggarwal (pulkit@student.unimelb.edu.au)
+- Yuji Nojima (ynojima@student.unimelb.edu.au)
 
 # Tools Used
 - Flutter (Cross-platform mobile framework for building the front end)
