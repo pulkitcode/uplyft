@@ -4,11 +4,6 @@
 - Prathyush Prashanth Rao (prathyushr@stuent.unimelb.edu.au)
 - Pulkit Aggarwal (pulkit@student.unimelb.edu.au)
 
-# Firestore
-Firestore will be used to store the data for our project.
-In case there's any confusion Firebase refers to Google's realtime database service as a whole. Firestore is the new and improved version (aka Firebase 2.0).
-You can find the Firestore project [here](https://console.firebase.google.com/u/0/project/project-iris-54ea9/database/)
-
 # Tools Used
 - Flutter (Cross-platform mobile framework for building the front end)
 - Firestore (To store and retrieve data)
