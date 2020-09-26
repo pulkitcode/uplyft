@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "607360926091",
+    "firebase_url": "https://project-iris-54ea9.firebaseio.com",
+    "project_id": "project-iris-54ea9",
+    "storage_bucket": "project-iris-54ea9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607360926091:android:bf8b033064369dfb37ef8e",
+        "android_client_info": {
+          "package_name": "com.example.project_iris"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607360926091-70akkrji2j4a290jsl71g8hmt8dd5ikp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOZPKeBVl7B-NC-RGqyxYw2H50Dn6FbVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607360926091-70akkrji2j4a290jsl71g8hmt8dd5ikp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
