@@ -4,9 +4,6 @@
 <img width ="300" src = "/Users/sanjogururaj47/Downloads/uplyft.jpeg"/>
 </p>
 
-#UpLyft second try
-
-![alt text](http://url/to/img.png/Users/sanjogururaj47/Downloads/uplyft.jpeg)
 
 # UpLyft | Feel better
 - Built to help users fight depression, anxiety, and other mental illnesses.
