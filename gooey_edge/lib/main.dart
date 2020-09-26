@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../_shared/lib/env.dart';
+import 'env.dart';
 import 'demo.dart';
 
 void main() => runApp(App());
