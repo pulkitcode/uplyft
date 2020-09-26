@@ -7,10 +7,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      
+
+      debugShowCheckedModeBanner: false,
       title: 'Chat',
-      theme: ThemeData.dark(
-          /*primarySwatch: Colors.blueGrey,
+      theme: ( ThemeData(
+        brightness: Brightness.dark,
+        primaryColor: Color(0xFFb5b3fd),
+      )
+        
+        
+        /*ThemeData.dark(
+          primarySwatch: Colors.blueGrey,
           backgroundColor: Colors.blueGrey,
           accentColor: Colors.blueGrey,
           accentColorBrightness: Brightness.dark,
@@ -18,8 +25,9 @@ class MyApp extends StatelessWidget {
             buttonColor: Colors.blueGrey,
             textTheme: ButtonTextTheme.primary,
             shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(11)),*/
-          ),
+                RoundedRectangleBorder(borderRadius: BorderRadius.circular(11)),
+          ),*/
+      ),
       home: ChatScreen(),
     );
   }

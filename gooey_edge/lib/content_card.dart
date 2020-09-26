@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
+import 'package:project_iris/Screens/Chat_screen.dart';
 
 import 'package:flutter/scheduler.dart';
 
@@ -138,7 +139,7 @@ class _ContentCardState extends State<ContentCard> {
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => SecondRoute()),
+                MaterialPageRoute(builder: (context) => ChatScreen()),
               );
             },
           ),
@@ -148,7 +149,7 @@ class _ContentCardState extends State<ContentCard> {
   }
 }
 
-class SecondRoute extends StatelessWidget {
+/*class SecondRoute extends StatelessWidget {
   get flutter => null;
 
   @override
@@ -165,4 +166,4 @@ class SecondRoute extends StatelessWidget {
       ),
     );
   }
-}
+}*/

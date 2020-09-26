@@ -32,7 +32,7 @@ class _ChatScreenState extends State<ChatScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Center(
-          child: Text("JoeText"),
+          child: Text("UpLyftChat"),
         ),
       ),
       body: Container(

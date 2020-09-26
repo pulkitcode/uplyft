@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -5,6 +7,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:project_iris/Widgets/chat/message_bubble.dart';
 
 class Messages extends StatelessWidget {
+
+  Random rand = new Random();
+
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
@@ -35,7 +40,7 @@ class Messages extends StatelessWidget {
                 itemCount: chatDocs.length,
                 itemBuilder: (ctx, index) => MessageBubble(
                   chatDocs[index]['text'],
-                  true,
+                  rand.nextBool(),
                   /*meant to pass if the user is typing or not by comparing
                   the user id (commented below) but would have to 
                   implement authentication thus, just passing a simple bool */
