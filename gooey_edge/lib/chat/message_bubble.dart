@@ -29,20 +29,19 @@ class MessageBubble extends StatelessWidget {
           child: Column(
             crossAxisAlignment:
                 isMe ? CrossAxisAlignment.end : CrossAxisAlignment.start,
-            children: <Widget>[ isMe ? 
-              Text(
-                "Anonymous",
-                style: TextStyle(
-                  color: Colors.black,
-                  //Theme.of(context).accentTextTheme.headline6.color,
-                ),
-              ) : 
-              Text(
-                "Therapist",
-                style: TextStyle(
-                  color: Colors.black),
-              ),
-
+            children: <Widget>[
+              isMe
+                  ? Text(
+                      "Anonymous",
+                      style: TextStyle(
+                        color: Colors.black,
+                        //Theme.of(context).accentTextTheme.headline6.color,
+                      ),
+                    )
+                  : Text(
+                      "Therapist",
+                      style: TextStyle(color: Colors.black),
+                    ),
               Text(
                 message,
                 style: TextStyle(

@@ -8,6 +8,14 @@ import './message_bubble.dart';
 
 class Messages extends StatelessWidget {
   Random rand = new Random();
+  var myBool = false;
+  // bool myBool = rand.nextBool();
+
+  bool getBool() {
+    //myBool = rand.nextBool();
+    myBool = !myBool;
+    return myBool;
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -39,7 +47,7 @@ class Messages extends StatelessWidget {
                 itemCount: chatDocs.length,
                 itemBuilder: (ctx, index) => MessageBubble(
                   chatDocs[index]['text'],
-                  rand.nextBool(),
+                  getBool(),
                   /*meant to pass if the user is typing or not by comparing
                   the user id (commented below) but would have to 
                   implement authentication thus, just passing a simple bool */

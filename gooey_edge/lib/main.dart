@@ -12,7 +12,13 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: GooeyEdgeDemo(title: 'AroundCampus'),
+      title: 'Chat',
+      theme: ( ThemeData(
+        brightness: Brightness.dark,
+        primaryColor: Color(0xFFb5b3fd),
+      )
+      ),
+      home: GooeyEdgeDemo(title: 'Uplyft'),
     );
   }
 }
