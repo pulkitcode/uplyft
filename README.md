@@ -11,6 +11,9 @@
 - Complete anonymity, no fields are required to be entered by the user.
 - Relays information to certified authorities with users consent
 
+<p align = "center">
+<img width ="300" src = "_shared/uplyft.gif"/>
+</p>
 
 
 # Development Team
