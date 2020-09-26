@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
-import 'package:project_iris/Screens/Chat_screen.dart';
+import './Screens/Chat_screen.dart';
 
 import 'package:flutter/scheduler.dart';
 

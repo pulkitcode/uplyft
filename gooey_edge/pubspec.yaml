@@ -9,6 +9,20 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  cloud_firestore: ^0.13.4+2
+  equatable: ^1.1.0
+  get_it: ^1.0.3+1
+  shared_preferences: ^0.5.1+2
+  flushbar: 1.9.1
+  scoped_model: ^1.0.1
+  intl: any
+  flutter_webview_plugin: ^0.3.10+1
+  url_launcher: ^5.4.7
+  firebase_auth: ^0.16.0
+  google_sign_in: ^4.4.4
+  firebase_storage: ^3.1.5
+  firebase_messaging: ^6.0.13
+  image_picker: ^0.6.7+4
 
   shared:
       path: ../_shared/
