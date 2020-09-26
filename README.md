@@ -1,7 +1,7 @@
 # UpLyft
 
 <p align = "center">
-<img width ="300" src = "/Users/sanjogururaj47/Downloads/uplyft.jpeg"/>
+<img width ="300" src = "_shared/uplyft.jpeg"/>
 </p>
 
 
